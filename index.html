@@ -15,8 +15,9 @@
 <body>
   <!-- Navbar gets added here -->
    <nav class="site-nav"></nav>
-   <a href="index.html">Home</a>
-   <a href="navbar.html">About</a>
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="navbar.html">Nav Bar</a>
 </nav>
    <div id="nav-placeholder"></div>
    <!-- Web Page content goes inside BootStrap container(s)-->
@@ -29,14 +30,69 @@
       </body>
 
   
-      <div class="container">
-    <h1> My Favorite Anime </h1>
-    <p> This webpage is about naruto.</p>
+<div class="container">
+<h1>Breaking Bad<h1></div>
+<p>My home page for now is going to be about breaking bad.</p></div>
+
+<div class="container mt-5">
+<div class="row">
+<div class="col-sm-4">
+<p>Here is the picture</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCvRP0iB9EVIo2jDnMR2XjjxsBOAWtLDt0yg9YDGMbQ&s=10" alt="Breaking Bad Image" width="250" height="250">
+</div>
+
+<div class="col-sm-4"></div>
+<a href="https://www.breakingbadstore.com/" target="_blank">Breaking Bad Store</a>
+</div>
+<div class="container mt-4"></div>
+<div class="row"></div>
+<div class="col-sm-4"></div>
+<h1>My top 3:</h1> 
+<ul>
+    <li>Jesse Pinkman</li>
+    <li>Walter White</li>
+    <li>Gustavo Fring</li>
+</ul>
+</div>
+<div class="container mt-3">
+  <div class="colum"></div>
+  <div class="col-sm-4"></div>
+  <h2>My Dropdown</h2>                                          
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Season 1</a></li>
+      <li><a class="dropdown-item" href="#">Season 2</a></li>
+      <li><a class="dropdown-item" href="#">Season 3</a></li>
+    </ul>
   </div>
-   <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <p> Here is Naruto </p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIp0St6GA8azUp7L5C1HkSsNN0KnKlT_P9HtGT7D9mHMMivOAF_qkUYd8&s=10" alt="Naruto Image" 
+</div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!--Breaking Bad Slideshow-->
+  <div class="carousel-inner">
+    <div class="carouself-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPqSM2pSWMeqBnXKEw5R0K4Y7ymo6SCOgCCEaagNzrIA&s=10" alt="Jesse Pinkman" class="d-block w-100" width="50" height="50">
+    </div>
+    <div class="carouself-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtcABXVsHYVfAW9OaIlyoiT-8Irr7E7pJQWmCChNNtpw&s" alt="Walter White" class="d-block w-100" width="50" height="50">
+    </div>
+    <div class="carouself-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-x4KKEMDzBIvho70LX1swW65abeK5RQo39PwQ86cHQ&s%27" alt="Gustavo Fring" class="d-block w-100" width="50" height="50">
+    </div>
+  </div>
+
+
 </body>
 </html>
